@@ -13,6 +13,33 @@ Grandes telas: acima de 1200px
 
 @media print{ 
 
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body{
+        background-image: url(../imagens/back-print.jpg);
+    }
+
+    main{
+        width: 90vw;
+        border: 2px solid black;
+    }
+
+    main::after{
+        content: 'Essa impressão foi feita através do site www.cursoemvideo.com.br';
+    }
+
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+
+    img#phone{display: none;}
+    img#tablet{display: none}
+    img#print{display: block}
+    img#pc{display: none;}
+    img#tv{display: none;}
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px){ /*Tablet*/
@@ -47,3 +74,4 @@ Grandes telas: acima de 1200px
     img#pc{display: none;}
     img#tv{display: block;}
 }
+
