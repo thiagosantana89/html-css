@@ -3,6 +3,6 @@
 
  Estou gerenciando o github
 
-<a href="https://thiagosantana89.github.io/html-css/exercicios/ex001/index.html">Executar o exercicio001</a>
+<a href="https://thiagosantana89.github.io/html-css/exercicios/ex001/index.html">Executar o exercicio001</a> <br>
 <a href="https://thiagosantana89.github.io/html-css/exercicios/ex026/index.html">Executar o exerciciomq005</a>
 
